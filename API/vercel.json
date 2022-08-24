@@ -4,6 +4,10 @@
     {
       "src": "index.js",
       "use": "@now/node"
+    },
+    {
+      "src": "package.json",
+      "use": "vercel-sapper"
     }
   ],
   "routes": [
