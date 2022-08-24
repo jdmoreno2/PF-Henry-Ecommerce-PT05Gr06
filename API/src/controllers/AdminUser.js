@@ -3,7 +3,7 @@ const { transporter } = require("../utils/nodeMailer");
 const { Router } = require("express");
 const { MAILUSER } = process.env;
 const router = Router();
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const { Op } = require("sequelize");
 
 const userBD = async () => {

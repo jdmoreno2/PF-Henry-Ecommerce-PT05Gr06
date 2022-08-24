@@ -3,7 +3,7 @@ const { transporter } = require("../utils/nodeMailer");
 const { MAILUSER } = process.env;
 const { Router } = require("express");
 const router = Router();
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 
 
